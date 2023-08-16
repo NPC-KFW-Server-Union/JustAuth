@@ -22,7 +22,7 @@ public enum AuthMicrosoftScope implements AuthScope {
     OPENID("openid", "允许用户以其工作或学校帐户登录应用，并允许应用查看用户的基本个人资料信息", true),
     OFFLINE_ACCESS("offline_access", "允许应用读取和更新用户数据，即使用户当前没有在使用此应用，也不例外", true),
 
-    USER_READ("User.Read", "登录并读取用户个人资料", false),
+    USER_READ("User.Read", "登录并读取用户个人资料", true),
     USER_READWRITE("User.ReadWrite", "对用户个人资料的读写权限", false),
     USER_READBASIC_ALL("User.ReadBasic.All", "读取所有用户的基本个人资料", false),
     USER_READ_ALL("User.Read.All", "读取所有用户的完整个人资料", false),
